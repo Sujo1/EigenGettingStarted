@@ -16,6 +16,7 @@ Download the example.
 
 ```
 git clone https://github.com/Sujo1/EigenGettingStarted.git
+cd EigenGettingStarted
 ```
 
 Create a build directory and use cmake.

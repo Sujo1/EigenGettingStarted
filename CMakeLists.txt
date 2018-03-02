@@ -2,7 +2,6 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 PROJECT(Eigen_Getting_Started)
 
-set(Eigen_3_DIR ${CMAKE_SOURCE_DIR}/modules)
-FIND_PACKAGE(Eigen3 REQUIRED NO_MODULE)
+FIND_PACKAGE(Eigen3 REQUIRED )
 
 add_executable(hello_Eigen hello_Eigen.cpp)
